@@ -9,7 +9,7 @@ import (
 )
 
 var MongoCN = ConectarBD()
-var clientOptions = options.Client().ApplyURI("")
+var clientOptions = options.Client().ApplyURI("mongodb+srv://otto_DB:123456789DB@twitorolf.9b8ql.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 /*permite conectar base de datos*/
 func ConectarBD() *mongo.Client {
